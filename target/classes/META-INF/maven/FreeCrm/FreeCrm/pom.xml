@@ -12,14 +12,11 @@
   <url>http://maven.apache.org</url>
 
 
-	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		 <maven.compiler.source>1.6</maven.compiler.source>
-                  <maven.compiler.target>1.6</maven.compiler.target>
-	</properties>
-
-
-
+<properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+</properties>
 
 	<dependencies>
 
@@ -28,6 +25,7 @@
 			<artifactId>selenium-java</artifactId>
 			<version>3.5.3</version>
 		</dependency>
+
 
 		<dependency>
 			<groupId>org.testng</groupId>
@@ -111,4 +109,6 @@
 
 
 	</dependencies>
+	
+
 </project>
